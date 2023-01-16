@@ -67,3 +67,8 @@ body{
     top: 308px;
     left: 508px;
 }
+button{
+    background-color: #D9CDF7;
+    border: none;
+    cursor: pointer;
+}
