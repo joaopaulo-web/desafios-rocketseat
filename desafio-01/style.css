@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0F0D13;
+    position: relative;
+}
+.vert-display{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 70px;
+    left: 400px;
+    background-color: #2A2141;
+    height: 422px;
+    width: 190px;
+    padding: 38.41px;
+    border-radius: 9.6px;
+}
+.vert-display > img{
+    position: absolute;
+    top: 45px;
+    padding: 0;
+    margin: 0;
+    height: 189.66px;
+    width: 189.66px;
+}
+.vert-texts{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 265px;
+    left: 40px;
+    color: #E1E1E6;
+}
+.vert-texts > h1{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.vert-texts > h2{
+    font-weight: 100;
+    font-size: 1.1em;
+    padding-top: 7px;
+}
+.vert-icons{
+    position: absolute;
+    top: 360px;
+}
+.vert-barra-time{
+    position: absolute;
+    top: 420px;
+}
+.square1-display{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 700px;
+    background-color: #2A2141;
+    width: 300px;
+    height: 209px;
+    padding: 28.81px;
+    border-radius: 9.6px;
+}
+.square1-texts{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 52px;
+    right: 60px;
+    color: #E1E1E6;
+}
+.square1-texts > h1{
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.square1-texts > h2{
+    font-weight: 100;
+    font-size: 1.2em;
+    padding-top: 7px;
+}
+.square1-display > img{
+    position: absolute;
+    left: 28.81px;
+    top: 40px;
+    width: 84.03px;
+    height: 84.03px;
+}
+.square1-icons{
+    position: absolute;
+    top: 150px;
+}
+.square1-barra-time{
+    position: absolute;
+    top: 210px;
+}
+.square2-display{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 370px;
+    left: 700px;
+    background-color: #2A2141;
+    width: 300px;
+    height: 141.64px;
+    padding: 28.81px;
+    border-radius: 9.6px;
+}
+.square2-texts{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 45px;
+    right: 60px;
+    color: #E1E1E6;
+}
+.square2-texts > h1{
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.square2-texts > h2{
+    font-weight: 100;
+    font-size: 1.2em;
+    padding-top: 7px;
+}
+.square2-display > img{
+    position: absolute;
+    left: 28.81px;
+    top: 32px;
+    width: 84.03px;
+    height: 84.03px;
+}
+.square2-icons{
+    position: absolute;
+    top: 140px;
+}
+.square2-barra-time{
+    position: absolute;
+    top: 210px;
+}
